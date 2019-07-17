@@ -69,6 +69,7 @@
 .max-width{
     max-width: 1280px;
     margin:0 auto;
+    padding: 0 2em !important;
 }
 
 .width-20 {
@@ -218,12 +219,9 @@ nav a:hover {
     width: 30em;
 }
 
-#service-details {
-    padding: 0 0em 4em 0;
-}
-
 #service-details div{
     margin:1em 0;
+    width: 100%;
 }
 
 
@@ -301,12 +299,17 @@ nav a:hover {
 
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 475px) {
     body {
       background-color: lightblue;
     }
 
-    .services {
-        flex-wrap: wrap;
+    .mobile-sm-column {
+        flex-direction: column;
+    }
+
+    .services-details-text{
+        padding-left: 0;
+        padding-right: 0;
     }
   }
