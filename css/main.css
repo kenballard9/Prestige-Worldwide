@@ -312,4 +312,8 @@ nav a:hover {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .mobile-title {
+        text-align: center;
+    }
   }
