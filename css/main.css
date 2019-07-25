@@ -200,7 +200,10 @@ nav a:hover {
 }
 
 .logo{
-    z-index: 100;
+    z-index: 10000;
+    width: 500px;
+    height: 500px;
+    align-self: center;
 }
 
 #divider-image{
@@ -318,5 +321,14 @@ textarea {
 
     .bottom-margin-1em {
         margin-bottom: 1em;
+    }
+
+    .service-icon-margin {
+        margin-bottom: 3em;
+    }
+
+    .logo {
+        width: 250px;
+        height: 250px;
     }
   }
