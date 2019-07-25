@@ -21,7 +21,7 @@
     <nav class="primary-color-bg width-100 myNav">
         <div class="flex justify-content-between max-width secondary-color mobile-sm-column">
             <div class="mobile-title">
-                <ul><h3>Prestige Worldwide</h3></ul>
+                <h3>Prestige Worldwide</h3>
             </div>
 
             <div  class="flex flex-row align-items-center mobile-sm-column">
@@ -29,9 +29,9 @@
                     <a href="#" class="nav-button">Home</a>
                 </div>
                 <div>
-                    <a href="#" class="nav-button">Services</a>
+                    <a href="#services" class="nav-button">Services</a>
                 </div>
-                <div>
+                <div class="bottom-margin-1em">
                     <a href="#contact-us" class="nav-button">Contact Us</a>
                 </div>
             </div>
@@ -54,28 +54,28 @@
         <div class="justify-content-evenly flex flex-row max-width mobile-sm-column">
 
             <div class="flex flex-column justify-content-center align-items-center right-margin-2em">
-                <ul class="padding-0"> <i class="fas fa-globe-americas" aria-hidden="true"></i> </ul>
+                <ul class="padding-0"> <a href="#marketing"> <i class="fas fa-globe-americas" aria-hidden="true"></i> </a> </ul>
                 <h3><a href="#marketing">Global Marketing</a></h3>
                 <ul class="padding-0">Maecenas vehicula leo nunc, id tempus sapien tristique maximus. Phasellus ac ornare mi.
                     Sed ac dolor et orci dignissim imperdiet rutrum at velit. Etiam laoreet sagittis diam.
                     Maecenas et dui ac arcu rutrum vulputate condimentum. </ul>
             </div>
             <div class="flex flex-column justify-content-center align-items-center right-margin-2em">
-                <ul class="padding-0"> <i class="fas fa-hands-helping" aria-hidden="true"></i> </ul>
+                <ul class="padding-0"> <a href="#public-relations"> <i class="fas fa-hands-helping" aria-hidden="true"></i> </a> </ul>
                 <h3><a href="#public-relations">Public Relations</a></h3>
                 <ul class="padding-0">Donec eget accumsan nunc. Nunc ullamcorper, turpis ac luctus gravida, odio est pellentesque
                     diam, a scelerisque dui ante ut eros. Morbi non congue velit, at ultricies nisl. Fusce id
                     nunc scelerisque metus sagittis.</ul>
             </div>
             <div class="flex flex-column justify-content-center align-items-center right-margin-2em">
-                <ul class="padding-0"> <i class="fab fa-grav" aria-hidden="true"></i> </ul>
-                <h3><a href="#talent-aquisition">Talent Aquisition</a></h3>
+                <ul class="padding-0"> <a href="#talent-Acquisition"> <i class="fab fa-grav" aria-hidden="true"></i> </a> </ul>
+                <h3><a href="#talent-acquisition">Talent Acquisition</a></h3>
                 <ul class="padding-0">Nunc at tincidunt justo. Etiam sit amet risus nisl. Aenean ullamcorper facilisis vestibulum.
                     Fusce vitae mauris eget massa posuere consectetur sit amet euismod tortor. Orci varius natoque
-                    penatibus et magnis.</ul>
+                    penatibus et magnis ullamcorper rutrum.</ul>
             </div>
             <div class="flex flex-column justify-content-center align-items-center right-margin-2em">
-                <ul class="padding-0"> <i class="fas fa-glass-cheers" aria-hidden="true"></i> </ul>
+                <ul class="padding-0"><a href="#event-planning"> <i class="fas fa-glass-cheers" aria-hidden="true"></i> </a> </ul>
                 <h3><a href="#event-planning">Event Planning</a></h3>
                 <ul class="padding-0">Aliquam massa tortor, maximus eu mollis porttitor, cursus ut dui. In a massa sit amet sapien semper
                     mollis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed dignissim metus vitae nisi
@@ -110,6 +110,7 @@
                 </div>
             </div>
 
+
             <div class="divider primary-color-bg"></div>
 
 
@@ -130,10 +131,10 @@
 
             <div class="divider primary-color-bg"></div>
 
-            <div id="talent-aquisition" class="flex flex-row  align-items-center anchor mobile-sm-column">
+            <div id="talent-acquisition" class="flex flex-row  align-items-center anchor mobile-sm-column">
             <img src="images/talent.svg" class="services-images">
                 <div class="flex flex-column align-items-left services-details-text">
-                    <h3>Talent Aquisition</h3>
+                    <h3>Talent Acquisition</h3>
                     <p> Proin sit amet elementum ligula, egestas porttitor felis. Aliquam auctor
                         diam
                         purus, vel feugiat nulla dignissim a. Cras varius efficitur elit, et pharetra turpis dignissim
@@ -170,11 +171,11 @@
         <div class="flex flex-column justify-content-center align-items-center form-margin max-width primary-color-bg-50">
             <div class="service-title form-item-margin">Contact Us</div>
             <form class="flex flex-column align-items-center justify-content-center form-border">
-                <input class="form-item-width form-item" name="firstName" placeholder="First Name" type="text">
-                <input class="form-item-width form-item" name="lastName" placeholder="Last Name" type="text">
-                <input class="form-item-width form-item" name="email" placeholder="Email Address" type="text">
-                <textarea rows:"7"="" placeholder="Comments..." class="form-item-width form-item"></textarea>
-                <button type="submit" class="submit-button" value="Submit">Submit</button>
+                <input class="form-item-width form-item width-100-percent" name="firstName" placeholder="First Name" type="text">
+                <input class="form-item-width form-item width-100-percent" name="lastName" placeholder="Last Name" type="text">
+                <input class="form-item-width form-item width-100-percent" name="email" placeholder="Email Address" type="text">
+                <textarea rows="7" cols="40" placeholder="Comments..." class="form-item-width form-item"></textarea>
+                <button type="submit" class="button" value="Submit">Submit</button>
             </form>
         </div>
     </div>
@@ -183,16 +184,16 @@
     <!--This is the footer. It encompasses Social Media Links and internal hyperlinks to different parts of the Page-->
     <footer>
         <div id="top-footer" class="width-100 flex justify-content-center align-items-center primary-color-bg secondary-color">
-            <div class="flex flex-column width-20">
+            <div class="flex flex-column width-20 mobile-sm-icons">
                 <div class="flex flex-row justify-content-evenly">
                     <a href="https://facebook.com"><i class="fab fa-facebook" id="social-media-icon"></i></a>
                     <a href="https://twitter.com"><i class="fab fa-twitter" id="social-media-icon"></i></a>
                     <a href="https://instagram.com"><i class="fab fa-instagram" id="social-media-icon"></i></a>
                 </div>
                 <div class="footer-item flex flex-column justify-content-evenly align-items-center">
-                    <p>Home</p>
-                    <p>Contact us</p>
-                    <p>Services</p>
+                    <p><a href="#" class="nav-button">Home</a></p>
+                    <p><a href="#services" class="nav-button">Services</a></p>
+                    <p><a href="#contact-us" class="nav-button">Contact Us</a></p>
                 </div>
             </div>
         </div>
